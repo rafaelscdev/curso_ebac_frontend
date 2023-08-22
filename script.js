@@ -1,6 +1,6 @@
 function validarFormulario() {
-    let campoA = document.getElementById("campoA").value;
-    let campoB = document.getElementById("campoB").value;
+    var campoA = document.getElementById("campoA").value;
+    var campoB = document.getElementById("campoB").value;
 
     if (campoB > campoA) {
         alert("É válido");
